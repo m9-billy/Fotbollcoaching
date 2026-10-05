@@ -1,0 +1,33 @@
+:root {
+  --farg-bakgrund: #f3faf4;
+  --farg-text: #14301b;
+  --farg-accent: #1f7a3a;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--farg-bakgrund);
+  color: var(--farg-text);
+  margin: 0;
+}
+
+.site-nav {
+  background-color: var(--farg-accent);
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  background-color: var(--farg-text);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
