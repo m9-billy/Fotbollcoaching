@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotbollscoaching – Kurser</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="site-nav">
+        <ul class="flex flex-col md:flex-row gap-2 md:gap-8 p-4 list-none m-0">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="fotbollcoaching.html">Fotbollscoaching</a></li>
+          <li><a href="kurser.html">Kurser</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+      <h1 class="text-3xl md:text-5xl font-bold mb-6">Våra kurser</h1>
+
+      <section class="flex flex-col md:flex-row gap-6 mb-8">
+        <img
+          src="images/kurser.jpg"
+          alt="Fotbollstränare som går igenom en övning med ett lag"
+          class="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow"
+        />
+        <div>
+          <h2 class="text-2xl font-semibold mb-3">Det här ingår</h2>
+          <ul class="list-disc pl-6 space-y-1">
+            <li>Teknikträning för alla nivåer</li>
+            <li>Taktik och spelförståelse</li>
+            <li>Mental träning inför match</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-3">Välj din nivå</h2>
+        <p class="mb-3">
+          Klicka på en nivå för att se vilken kurs som passar dig.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3 mb-4">
+          <button
+            class="nivaknapp bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+            data-text="Nybörjare: lär dig grunderna i bollkontroll och passningar."
+          >
+            Nybörjare
+          </button>
+          <button
+            class="nivaknapp bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+            data-text="Medel: arbeta med spelförståelse, positionering och tempo."
+          >
+            Medel
+          </button>
+          <button
+            class="nivaknapp bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+            data-text="Avancerad: finslipa taktik, mental styrka och matchrutiner."
+          >
+            Avancerad
+          </button>
+        </div>
+
+        <p id="niva-text" class="p-4 bg-green-100 rounded">
+          Ingen nivå vald än.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3">Läs mer</h2>
+        <p>
+          Mer om tränarutbildning hittar du hos
+          <a
+            href="https://www.svenskfotboll.se"
+            class="underline text-green-800"
+            >Svenska Fotbollförbundet</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Fotbollscoaching</p>
+    </footer>
+
+    <script src="js/kurser.js"></script>
+  </body>
+</html>
