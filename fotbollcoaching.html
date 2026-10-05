@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotbollscoaching – Träningstips</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="site-nav">
+        <ul class="flex flex-col md:flex-row gap-2 md:gap-8 p-4 list-none m-0">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="fotbollcoaching.html">Fotbollscoaching</a></li>
+          <li><a href="kurser.html">Kurser</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+      <h1 class="text-3xl md:text-5xl font-bold mb-6">Så tränar du smartare</h1>
+
+      <section class="flex flex-col md:flex-row gap-6 mb-8">
+        <img
+          src="images/fotboll.jpg"
+          alt="Fotbollsspelare som tränar dribbling med koner på en gräsplan"
+          class="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow"
+        />
+        <div>
+          <h2 class="text-2xl font-semibold mb-3">Tre saker att träna på</h2>
+          <ul class="list-disc pl-6 space-y-1">
+            <li>Bollkontroll och första touch</li>
+            <li>Passningar med båda fötterna</li>
+            <li>Kondition och snabbhet</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-3">Veckans övning</h2>
+        <p class="mb-3">
+          Små, regelbundna pass ger bättre resultat än ett långt pass i veckan.
+        </p>
+
+        <button
+          id="visa-ovning"
+          class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+        >
+          Visa övningen
+        </button>
+
+        <p id="ovning-text" class="hidden mt-4 p-4 bg-green-100 rounded">
+          Placera fem koner på rad med två meters mellanrum. Dribbla i slalom
+          mellan dem och försök hålla bollen nära foten hela vägen.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold mb-3">Läs mer</h2>
+        <p>
+          Mer om svensk fotboll hittar du hos
+          <a
+            href="https://www.svenskfotboll.se"
+            class="underline text-green-800"
+            >Svenska Fotbollförbundet</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Fotbollscoaching</p>
+    </footer>
+
+    <script src="js/coaching.js"></script>
+  </body>
+</html>
