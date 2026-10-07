@@ -10,6 +10,9 @@ body {
   color: var(--farg-text);
   margin: 0;
 }
+.hero {
+  background: linear-gradient(135deg, #dff1e3 0%, var(--farg-bakgrund) 100%);
+}
 
 .site-nav {
   background-color: var(--farg-accent);
