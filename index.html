@@ -13,21 +13,108 @@
         <ul class="flex flex-col md:flex-row gap-2 md:gap-8 p-4 list-none m-0">
           <li><a href="index.html">Start</a></li>
           <li><a href="fotbollcoaching.html">Fotbollscoaching</a></li>
-          <li><a href="kurser.html">Kurser</a></li>
+          <li><a href="kurser.html">Övningar</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="max-w-3xl mx-auto p-6">
-      <h1 class="text-3xl md:text-5xl font-bold mb-4">
-        Bli en bättre fotbollsspelare
-      </h1>
-      <p class="mb-4">
-        Här hittar du tips, träningsupplägg och kurser för dig som vill
-        utvecklas som fotbollsspelare och coach.
-      </p>
-    </main>
+    <main>
+      <section class="hero">
+        <div
+          class="max-w-5xl mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-center gap-8"
+        >
+          <div class="md:w-1/2">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+              Bli en bättre fotbollsspelare
+            </h1>
+            <p class="text-lg mb-6">
+              Här hittar du tips, träningsupplägg och övningar för dig som vill
+              utvecklas som fotbollsspelare och coach.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a
+                href="fotbollcoaching.html"
+                class="bg-green-700 text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-green-800"
+                >Börja träna</a
+              >
+              <a
+                href="kurser.html"
+                class="border-2 border-green-700 text-green-800 px-6 py-3 rounded-lg font-semibold text-center hover:bg-green-100"
+                >Se övningar</a
+              >
+            </div>
+          </div>
+          <img
+            src="images/fotboll.jpg"
+            alt="Fotbollsspelare som tränar dribbling med koner på en gräsplan"
+            class="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-xl shadow-lg"
+          />
+        </div>
+      </section>
 
+      <section class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6">Utforska sidan</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a
+            href="fotbollcoaching.html"
+            class="block bg-white rounded-xl shadow hover:shadow-lg overflow-hidden"
+          >
+            <img
+              src="images/fotboll.jpg"
+              alt="Koner och en fotboll på en träningsplan"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-2">Fotbollscoaching</h3>
+              <p>
+                Träningstips och veckans övning för dig som vill bli bättre på
+                bollkontroll, passningar och kondition.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="kurser.html"
+            class="block bg-white rounded-xl shadow hover:shadow-lg overflow-hidden"
+          >
+            <img
+              src="images/kurser.jpg"
+              alt="Fotbollstränare som går igenom en övning med ett lag"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-2">Övningar</h3>
+              <p>
+                Välj din nivå och se vilken övning som passar dig, från
+                nybörjare till avancerad.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="bg-white">
+        <div class="max-w-5xl mx-auto px-6 py-12">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6">
+            Så här kommer du igång
+          </h2>
+          <ol class="grid grid-cols-1 md:grid-cols-3 gap-6 list-none p-0 m-0">
+            <li class="p-5 rounded-xl bg-green-100">
+              <p class="text-3xl font-bold text-green-800 mb-2">1</p>
+              <p>Välj din nivå på övningssidan.</p>
+            </li>
+            <li class="p-5 rounded-xl bg-green-100">
+              <p class="text-3xl font-bold text-green-800 mb-2">2</p>
+              <p>Prova veckans övning på träningen.</p>
+            </li>
+            <li class="p-5 rounded-xl bg-green-100">
+              <p class="text-3xl font-bold text-green-800 mb-2">3</p>
+              <p>Träna lite varje vecka och följ din utveckling.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
     <footer class="site-footer">
       <p>&copy; 2026 Fotbollscoaching</p>
     </footer>
